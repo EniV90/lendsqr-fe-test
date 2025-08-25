@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,700;1,800&display=swap");
+@import url("https://fonts.cdnfonts.com/css/avenir-next-lt-pro");
+
+body {
+  background-color: #ffffff;
+  font-family: "Work Sans";
+  font-style: normal;
+
+  h1 {
+    font-family: "Avenir Next";
+    font-family: normal;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: -0.04em;
+    color: #213f7d;
+  }
+
+  h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #213f7d;
+  }
+
+  h4 {
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0 10px;
+    color: #213f7d;
+  }
+
+  p {
+    font-family: "Avenir Next";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #545f7d;
+  }
+
+  span {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #39cdcc;
+  }
+
+ button {
+  border-radius: 8px;
+  border: none;
+  padding: 13px;
+  background-color: #39cdcc;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+ }
+ ul {
+  list-style: none;
+ }
+}

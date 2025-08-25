@@ -1,0 +1,96 @@
+.login {
+  width: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px;
+
+  .login-container {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .login-img {
+      width: 50%;
+
+      .logo {
+        width: 25%;
+        margin-left: 97px;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .illustration {
+        margin-top: 139px;
+        img {
+          width: 90%;
+          object-fit: cover;
+        }
+      }
+    }
+    .login-signin {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .container {
+        width: 70%;
+
+        p {
+          margin-top: -25px;
+          margin-bottom: 50px;
+        }
+
+        input {
+          width: 95%;
+          height: 50px;
+          background: #ffffff;
+          border: 2px solid rgba(84, 95, 125, 0.15);
+          border-radius: 5px;
+          margin-bottom: 24px;
+        }
+        input[type="email"] {
+          padding-left: 16px;
+        }
+        input::placeholder {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 19px;
+          color: #545f7d;
+          opacity: 0.6;
+        }
+        .password {
+          display: flex;
+          span {
+            cursor: pointer;
+            margin-left: -60px;
+            padding-top: 20px;
+          }
+        }
+        .btn {
+          margin-top: 10px;
+          width: 100%;
+          cursor: pointer;
+          color: #ffffff;
+        }
+        button {
+          padding: 15px 0px;
+          a {
+            width: 100%;
+            background-color: #39cdcc;
+            text-decoration: none;
+            
+          }
+        }
+      }
+    }
+  }
+}
+
+
