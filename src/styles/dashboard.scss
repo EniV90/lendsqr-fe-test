@@ -2,6 +2,21 @@
   width: 100%;
   padding-bottom: 50px;
   .dashboard-nav {
-    height: 10vh;
+    height: 9vh;
+  }
+  .home {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    .dash-sidebar {
+      width: 100%;
+      .bar {
+        width: 18%;
+        height: 100vh;
+        overflow-y: scroll;
+        position: fixed;
+        box-shadow: 0.5px 0px 4px rgba(0, 0, 0, 0.04);
+      }
+    }
   }
 }

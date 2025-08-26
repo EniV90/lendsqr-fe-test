@@ -2,6 +2,7 @@ import Search from "../Search/search";
 import logo from "../../assets/icons/Group.svg";
 import { HiOutlineBell } from "react-icons/hi";
 import { RiArrowDownSFill } from "react-icons/ri";
+import image from "../../assets/icons/image 4.svg"
 import "./nav.scss";
 
 export default function Nav() {
@@ -19,7 +20,7 @@ export default function Nav() {
           <div className="bell">
             <HiOutlineBell />
           </div>
-          <img src="" alt="logo" />
+          <img src={image} alt="logo" />
           <p>Adedeji</p>
           <RiArrowDownSFill />
         </div>

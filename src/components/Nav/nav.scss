@@ -7,9 +7,8 @@
   position: fixed;
   width: 100%;
   background: #ffffff;
-  padding: 12px;
+  padding: 12px 0;
   box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
-  // height: 10vh;
 
   .nav-container {
     width: 97%;
@@ -29,7 +28,7 @@
 
   .search {
     width: 45%;
-    padding: 30px;
+    padding-left: 30px;
   }
 
   .userProfile {
@@ -53,8 +52,6 @@
     margin-top: 5px;
     font-size: 22px;
     color: #213f7d;
-    // border: 0.4px solid #213f7d;
-    // border: none;
     margin-left: 50px;
   }
 

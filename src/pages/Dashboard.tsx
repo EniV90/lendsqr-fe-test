@@ -1,5 +1,6 @@
 import Nav from "../components/Nav/nav";
-import "../styles/dashboard.scss"
+import Sidebar from "../components/Sidebar/sidebar";
+import "../styles/dashboard.scss";
 export default function Dashboard() {
   return (
     <div className="dashboard">
@@ -8,7 +9,9 @@ export default function Dashboard() {
       </div>
       <div className="home">
         <div className="dash-sidebar">
-          
+          <div className="bar">
+            <Sidebar />
+          </div>
         </div>
       </div>
     </div>
