@@ -4,7 +4,7 @@ import Cards from "../components/Cards/cards";
 import Contact from "../components/Contact/contact";
 import Pagination from "../components/Pagination/pagination";
 import "../styles/dashboard.scss";
-import { useEffect, useState } from "react";
+import { useEffect, useState, type JSX } from "react";
 
 // Import simple storage utilities
 import { saveUsersToStorage, getUsersFromStorage } from "../utils/Storage";

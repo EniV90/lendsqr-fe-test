@@ -4,9 +4,9 @@ import chartBar from "../assets/icons/chart-bar 2.svg";
 import clipboardList from "../assets/icons/clipboard-list 1.svg";
 import coinsSolid from "../assets/icons/coins-solid 1.svg";
 import handshake from "../assets/icons/handshake-regular 1.svg";
-import home from "../assets/icons/home 1.svg";
+
 import icon from "../assets/icons/icon.svg";
-import loan from "../assets/icons/loan 1.svg";
+
 import loanProduct from "../assets/icons/loan-product 1.svg";
 import npBank from "../assets/icons/np_bank_148501_000000 1.svg";
 import piggyBank from "../assets/icons/piggy-bank 1.svg";

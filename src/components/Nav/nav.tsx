@@ -35,6 +35,7 @@ import { HiOutlineBell } from "react-icons/hi";
 import { RiArrowDownSFill } from "react-icons/ri";
 import image from "../../assets/icons/image 4.svg";
 import "./nav.scss";
+import type { JSX } from "react";
 
 interface UserProfileProps {
   userName?: string;

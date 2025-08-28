@@ -2,6 +2,7 @@ import { MdStar, MdStarBorder } from "react-icons/md";
 import avatar from "../../assets/icons/avatar.svg"
 import type { UserDetail } from "../../types";
 import "./profile.scss";
+import type { JSX } from "react";
 
 
 

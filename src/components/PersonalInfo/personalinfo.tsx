@@ -1,5 +1,6 @@
 import "./personalinfo.scss"
 import type { UserDetail } from "../../types";
+import type { JSX } from "react";
 
 
 

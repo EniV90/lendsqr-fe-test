@@ -1,5 +1,5 @@
 // utils/storage.ts - Simple localStorage utilities
-import type { ID, UserListItem, UserDetail } from "../types";
+import type {  UserListItem, UserDetail } from "../types";
 
 // Keys for localStorage
 const STORAGE_KEYS = {

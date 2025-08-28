@@ -1,4 +1,4 @@
-import { useState, FormEvent, ChangeEvent } from "react";
+import { useState, type FormEvent, type ChangeEvent, type JSX } from "react";
 import { useNavigate } from "react-router-dom";
 import "../styles/login.scss";
 import Logo from "../assets/icons/Group.svg";

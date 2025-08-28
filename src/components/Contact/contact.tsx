@@ -1,4 +1,5 @@
-import { useState } from "react";
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import { useState, type JSX } from "react";
 import dropdown from "../../assets/icons/filter-results-button.svg";
 import Contactform from "../ContactForm/contactform";
 import viewIcon from "../../assets/icons/Vector.svg";
@@ -25,18 +26,6 @@ export default function Contact({ data }: ContactProps): JSX.Element {
 
   const handleDropdownClick = (userId: string | number): void => {
     setActiveDropdown(activeDropdown === userId ? null : userId);
-  };
-
-  const handleBlacklistUser = (userId: string | number): void => {
-    // Add your blacklist logic here
-    console.log(`Blacklisting user ${userId}`);
-    setActiveDropdown(null);
-  };
-
-  const handleActivateUser = (userId: string | number): void => {
-    // Add your activate logic here
-    console.log(`Activating user ${userId}`);
-    setActiveDropdown(null);
   };
 
   const getStatusClass = (status: string): string => {
@@ -75,11 +64,11 @@ export default function Contact({ data }: ContactProps): JSX.Element {
 
       return date
         .toLocaleDateString("en-US", options)
-        .replace(/,/g, "") // Remove comma after day
-        .toUpperCase() // Make month uppercase
-        .replace(/(\w{3}) (\d+) (\d{4}) (\d+:\d+ [AP]M)/, "$1 $2, $3 $4"); // Add comma back after year
+        .replace(/,/g, "") 
+        .toUpperCase() 
+        .replace(/(\w{3}) (\d+) (\d{4}) (\d+:\d+ [AP]M)/, "$1 $2, $3 $4"); 
     } catch (error) {
-      return dateString; // Return original if parsing fails
+      return dateString; 
     }
   };
 
@@ -117,7 +106,7 @@ export default function Contact({ data }: ContactProps): JSX.Element {
             </tr>
           </thead>
           <tbody>
-            {data?.map((user: User, index: number) => (
+            {data?.map((user: UserListItem, index: number) => (
               <tr key={user.id || index}>
                 <td>{user.organization || "N/A"}</td>
                 <td>{user.userName || "N/A"}</td>

@@ -1,48 +1,9 @@
-// import user1 from "../../assets/icons/np_users.svg";
-// import user2 from "../../assets/icons/np_users 2.svg";
-// import icon1 from "../../assets/icons/icon-2.svg";
-// import icon2 from "../../assets/icons/icon-3.svg";
-// import "./cards.scss";
-// export default function Cards() {
-//   return (
-//     <div className="card-row">
-//       <div className="cards">
-//         <div className="user-icon">
-//           <img src={user1} alt="icon" />
-//         </div>
-//         <p>users</p>
-//         <h3>2,453</h3>
-//       </div>
-//       <div className="cards">
-//         <div className="user-icon1">
-//           <img src={user2} alt="icon" />
-//         </div>
-//         <p>active users</p>
-//         <h3>2,453</h3>
-//       </div>
-//       <div className="cards">
-//         <div className="user-icon2">
-//           <img src={icon1} alt="icon" />
-//         </div>
-//         <p>users with loans</p>
-//         <h3>12,453</h3>
-//       </div>
-//       <div className="cards">
-//         <div className="user-icon3">
-//           <img src={icon2} alt="icon" />
-//         </div>
-//         <p>users with savings</p>
-//         <h3>102,453</h3>
-//       </div>
-//     </div>
-//   );
-// }
-
 import user1 from "../../assets/icons/np_users.svg";
 import user2 from "../../assets/icons/np_users 2.svg";
 import icon1 from "../../assets/icons/icon-2.svg";
 import icon2 from "../../assets/icons/icon-3.svg";
 import "./cards.scss";
+import type { JSX } from "react";
 
 interface CardData {
   icon: string;

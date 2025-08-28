@@ -6,7 +6,7 @@ import PersonalInfo from "../components/PersonalInfo/personalinfo";
 
 import "../styles/userdetails.scss";
 import { useParams } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState, useEffect, type JSX } from "react";
 import type { UserDetail } from "../types";
 
 // Keep storage utilities (we still cache)

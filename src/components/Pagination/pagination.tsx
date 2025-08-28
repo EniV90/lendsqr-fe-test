@@ -5,9 +5,7 @@ import { useState } from "react";
 import type { PaginationProps } from "../../types";
 import "./pagination.scss";
 
-
 export default function Pagination(props: PaginationProps) {
-  const [buttonDisabled, setButtonDisabled] = useState<boolean>(false);
   const totalPages = Math.ceil(props.totalItems / props.itemsPerPage);
   const [numberPaginated, setNumberPaginated] = useState<number>(
     props.currentPage
@@ -55,8 +53,8 @@ export default function Pagination(props: PaginationProps) {
   };
 
   const handleNext = (): void => {
+    // eslint-disable-next-line no-empty
     if (props.currentPage >= totalPages) {
-      setButtonDisabled(true);
     } else {
       props.setCurrentPage(props.currentPage + 1);
       setNumberPaginated(props.currentPage + 1);
@@ -64,8 +62,8 @@ export default function Pagination(props: PaginationProps) {
   };
 
   const handlePrevious = (): void => {
+    // eslint-disable-next-line no-empty
     if (props.currentPage <= 1) {
-      setButtonDisabled(true);
     } else {
       props.setCurrentPage(props.currentPage - 1);
       setNumberPaginated(props.currentPage - 1);
@@ -92,12 +90,7 @@ export default function Pagination(props: PaginationProps) {
         <p>{props.totalItems}</p>
       </div>
       <div className="pagination-numbers">
-        <img
-          src={previous}
-          onClick={handlePrevious}
-          disabled={buttonDisabled}
-          alt="Previous page"
-        />
+        <img src={previous} onClick={handlePrevious} alt="Previous page" />
         <ul>
           {getVisiblePages().map((page: number | string, index: number) => (
             <li
@@ -130,7 +123,6 @@ export default function Pagination(props: PaginationProps) {
         <img
           src={next}
           onClick={handleNext}
-          disabled={buttonDisabled}
           style={{ marginLeft: "20px" }}
           alt="Next page"
         />
