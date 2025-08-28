@@ -105,7 +105,7 @@ export default function Login(): JSX.Element {
         </div>
         <div className="login-signin">
           <div className="container">
-            <h1>Welcome!</h1>
+            <h1 style={{fontFamily: "Avenir Next"}}>Welcome!</h1>
             <p>Enter Details to login.</p>
             
             <form onSubmit={handleSubmit}>
