@@ -1,0 +1,48 @@
+.info {
+  width: 100%;
+  overflow-x: scroll;
+  h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #213f7d;
+  }
+  .infotable {
+    width: 100%;
+    border-bottom: 1px solid #e9e6f2;
+    table {
+      table-layout: fixed;
+      margin-bottom: 28px;
+    }
+    tr {
+      width: 100%;
+
+      th {
+        text-align: left;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-transform: uppercase;
+        white-space: nowrap;
+        color: #545f7d;
+        margin: 0px;
+        padding: 20px 100px 8px 0px;
+      }
+
+      td {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #545f7d;
+        margin: 0px;
+        margin-top: 8px;
+      }
+      td:last-child {
+        padding-right: 0px;
+      }
+    }
+  }
+  .infotable:last-child {
+    border: none;
+  }
+}

@@ -1,0 +1,75 @@
+.contactForm {
+  margin-top: 40px;
+  left: 350px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 15px;
+  background: #ffffff;
+  border: 1px solid rgba(84, 95, 125, 0.14);
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+  label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #545f7d;
+    margin-bottom: 6px;
+  }
+  input,
+  select {
+    width: 230px;
+    background: #ffffff;
+    border: 1px solid #dee3eb;
+    border-radius: 8px;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+  }
+  select,
+  option {
+    width: 272px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #dee3eb;
+  }
+  input::placeholder select::after {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #dee3eb;
+  }
+  .formButton {
+    display: flex;
+    button:first-child {
+      border: 1px solid #545f7d;
+      padding: 11px 30px;
+      background-color: #ffffff;
+      color: #545f7d;
+      margin-right: 14px;
+    }
+    button {
+      text-transform: capitalize;
+      padding: 11px 30px;
+      color: #ffffff;
+    }
+  }
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: #545f7d;
+  -webkit-appearance: none;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  padding: 12px 16px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: white;
+  color: #545f7d;
+  cursor: pointer;
+}

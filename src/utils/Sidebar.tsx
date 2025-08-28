@@ -19,6 +19,8 @@ import userTimesKarma from "../assets/icons/user-times-karma 1.svg";
 import users from "../assets/icons/users 1.svg";
 import whitelist from "../assets/icons/Whitelist 1.svg";
 import galaxy from "../assets/icons/galaxy 1.svg";
+import tire from "../assets/icons/tire 1.svg"
+import logOut from "../assets/icons/sign-out 1.svg"
 
 export const customers = [
   {
@@ -107,4 +109,16 @@ export const settings = [
     icon: <img src={clipboardList} alt="icon" />,
     name: "Audit Logs",
   },
+  {
+    icon: <img src={tire} alt="icon" />,
+    name: "Systems Messages"
+  }
+]
+
+export const logout = [
+  {
+    icon: <img src={logOut} alt="icon" />,
+    name: "LogOut"
+  }
+  
 ]
